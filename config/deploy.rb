@@ -3,7 +3,7 @@ lock '3.12.0'
 
 set :application, 'sample_app'
 #アプリ名を記載
-set :repo_url, 'git@github.com:ichihara-development-github/sample_app.git'
+set :repo_url, 'github:ichihara-development-github/sample_app.git'
 #cloneを行うリモートリポジトリを記載
 
 set :rbenv_type, :user
